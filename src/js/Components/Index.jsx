@@ -4,6 +4,7 @@ import { Link, Switch, Route } from 'react-router-dom'
 import Home from './Home/Home'
 import Routes from './Routes/Routes'
 import CONTXT from './Context/Context'
+import TestComponent from './globalComponents/TestComponent/TestComponent'
 
 import Nav from './_shared/Nav/Nav'
 
@@ -33,6 +34,7 @@ export default class Index extends Component {
             <Route path='/' exact component={Home} />
             <Route path='/routes' component={Routes} />
             <Route path='/context' component={CONTXT} />
+            <Route path='/testModule' component={TestComponent} />
           </Switch>
         </main>
       </article>
