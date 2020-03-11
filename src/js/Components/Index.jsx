@@ -15,7 +15,7 @@ import Img from '../../img/react.png';
 export default class Index extends Component {
 
   componentDidMount() {
-    document.title = "Hi there"
+    // document.title = "Hi there"
   }
   
   click = e => {

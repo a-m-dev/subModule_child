@@ -8,6 +8,11 @@ class Nav extends React.Component {
 
     return(
       <nav className="nav">
+
+        <h2>CHILD:</h2>
+
+        <span className="nav__seperator">||</span>
+
         <NavLink 
           to='/' 
           exact 
